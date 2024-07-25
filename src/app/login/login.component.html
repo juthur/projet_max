@@ -1,0 +1,9 @@
+<h1>Se connecter à mon site top secret</h1>
+<div class="loginContainer">
+    <input type="text" placeholder="Utilisateur" #login/>
+    <input type="password" placeholder="Mot de passe" #password/>
+    <button (click)="getUserInput(login, password)">Se connecter</button>
+    <div *ngIf="flag">Le mot de passe n'est pas bon !</div>
+</div>
+
+<img src="assets/img/punisher.jpg" alt="Punisher" />

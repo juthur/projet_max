@@ -1,0 +1,16 @@
+.btnContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: red;
+    border-color: red;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

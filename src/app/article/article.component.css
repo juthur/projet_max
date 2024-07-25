@@ -1,0 +1,24 @@
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.paragraphe {
+    margin-bottom: 60px;
+}
+
+.auteur {
+    margin-top: 60px;
+}

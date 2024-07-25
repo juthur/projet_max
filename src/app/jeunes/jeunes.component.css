@@ -1,0 +1,32 @@
+h1, h2 {
+    text-align: center;
+}
+
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    text-align: justify;
+    margin: 50px 10px 50px 10px;
+}
+
+.userContainer div {
+    margin-bottom: 10px;
+}
+
+.userContainer img {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.teamContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dateAsap {
+    color: red;
+    font-weight: bold;
+}
